@@ -22,7 +22,6 @@ describe('Address Book', function () {
 
       addressBook.addContact(thisContact);
       addressBook.deleteContact(0);
-
       expect(addressBook.getContact(0)).not.toBeDefined();
     });
 
